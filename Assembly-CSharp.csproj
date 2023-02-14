@@ -57,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Script/TowerBuilder.cs" />
+    <Compile Include="Assets/Script/Platform/Platform.cs" />
+    <Compile Include="Assets/Script/Platform/SpawnPlatform.cs" />
+    <Compile Include="Assets/Script/Platform/FinishPlatform.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

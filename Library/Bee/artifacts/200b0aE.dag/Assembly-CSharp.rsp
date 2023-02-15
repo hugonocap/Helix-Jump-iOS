@@ -348,6 +348,7 @@
 "Assets/Script/Platform/Platform.cs"
 "Assets/Script/Platform/SpawnPlatform.cs"
 "Assets/Script/TowerBuilder.cs"
+"Assets/Script/TowerRotator.cs"
 -langversion:9.0
 
 /deterministic

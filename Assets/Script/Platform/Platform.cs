@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private float _bounceForce;
+    [SerializeField] private float _bounceRadius;
 
-    // Update is called once per frame
-    void Update()
+    public void Break()
     {
-        
+        PlatformSegment[] platformSegments = GetComponentsInChildren<PlatformSegment>();
+
+        foreach(var segment in platformSegments )
+        {
+            segment.Bounce(_bounceForce, transform.position, _bounceRadius);
+        }
     }
 }

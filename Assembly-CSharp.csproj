@@ -57,10 +57,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Script/Platform/Platform.cs" />
-    <Compile Include="Assets/Script/TowerBuilder.cs" />
+    <Compile Include="Assets/Script/Tower/TowerBuilder.cs" />
     <Compile Include="Assets/Script/Platform/FinishPlatform.cs" />
+    <Compile Include="Assets/Script/Platform/PlatformSegment.cs" />
+    <Compile Include="Assets/Script/Ball/BallJumper.cs" />
+    <Compile Include="Assets/Script/Tower/TowerRotator.cs" />
     <Compile Include="Assets/Script/Platform/SpawnPlatform.cs" />
-    <Compile Include="Assets/Script/TowerRotator.cs" />
+    <Compile Include="Assets/Script/Ball/Ball.cs" />
+    <Compile Include="Assets/Script/BallTracker.cs" />
+    <Compile Include="Assets/Script/Beam.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -305,6 +310,18 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>/Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>

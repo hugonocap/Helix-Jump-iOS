@@ -56,16 +56,16 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Script/Ball/Ball.cs" />
+    <Compile Include="Assets/Script/Beam.cs" />
     <Compile Include="Assets/Script/Platform/Platform.cs" />
     <Compile Include="Assets/Script/Tower/TowerBuilder.cs" />
     <Compile Include="Assets/Script/Platform/FinishPlatform.cs" />
     <Compile Include="Assets/Script/Platform/PlatformSegment.cs" />
     <Compile Include="Assets/Script/Ball/BallJumper.cs" />
+    <Compile Include="Assets/Script/BallTracker.cs" />
     <Compile Include="Assets/Script/Tower/TowerRotator.cs" />
     <Compile Include="Assets/Script/Platform/SpawnPlatform.cs" />
-    <Compile Include="Assets/Script/Ball/Ball.cs" />
-    <Compile Include="Assets/Script/BallTracker.cs" />
-    <Compile Include="Assets/Script/Beam.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
